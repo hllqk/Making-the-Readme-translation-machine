@@ -44,43 +44,46 @@ def check_contain_chinese(t):
   resultt = re.compile(u'[\u4e00-\u9fa5]')
   if resultt.search(t):
      return True
+def translate(ch):
+	text=ch.split('\n')
+	out=open('out.txt','w+')
+	out.write('')
+	out.close()
+	for i in text:
+		if check_contain_chinese(i):
+			if ts(i)!=False:
+				tss=ts(i)
+				#print(tss)
+				hhh=i.replace(tss, '')
+				hhh=hhh.strip()
+				for ii in notp:
+					if ii in hhh:
+						hhh=hhh.replace(ii,'')
+			#print(hhh)
+				hhh=hhh.strip()
+			#print(hhh)
+				eng=translator(hhh)
+				sb=i.replace(hhh,eng)
+		#print(gg)
+				eng=sb
+			else:	
+			#pr
+				eng=translator(i)
+			#print(i)
+		else:
+			eng=i
+		out=open('out.txt','a+')
+		for ii in notp:
+			if ii in i:
+				out.write(i+'  '+'\n')
+			else:
+				out.write(eng+'  '+'\n'+i+'\n')
+			break
+#main
 f=open('ch.txt')
 ch=f.read()
-text=ch.split('\n')
-out=open('out.txt','w+')
-out.write('')
-out.close()
-for i in text:
-	if check_contain_chinese(i):
-		if ts(i)!=False:
-			tss=ts(i)
-			#print(tss)
-			hhh=i.replace(tss, '')
-			hhh=hhh.strip()
-			for ii in notp:
-				if ii in hhh:
-					hhh=hhh.replace(ii,'')
-			#print(hhh)
-			hhh=hhh.strip()
-			#print(hhh)
-			eng=translator(hhh)
-			sb=i.replace(hhh,eng)
-		#print(gg)
-			eng=sb
-		else:	
-			#pr
-			eng=translator(i)
-			#print(i)
-	else:
-		eng=i
-	out=open('out.txt','a+')
-	for ii in notp:
-		if ii in i:
-			out.write(i+'  '+'\n')
-		else:
-			out.write(eng+'  '+'\n'+i+'\n')
-		break
-print('完成，前往out.txt查看')
+translate(ch)
+print('翻译完成，前往out.txt查看')
 
 '''
 w=open('out.txt','w')
