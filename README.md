@@ -4,7 +4,8 @@
 
 As shown in the readme, have English and Chinese, emmmm  
 如本readme所示，有英语和中文，emmmm
-  
+在线体验效果  
+[Github Readme 翻译机 (hllqk.repl.co)](https://spiffyeuphoricvoxel.hllqk.repl.co/)  
 
 ### Use:  
 ### 用处:
