@@ -76,9 +76,9 @@ for i in text:
 	out=open('out.txt','a+')
 	for ii in notp:
 		if ii in i:
-			out.write(i+'\n')
+			out.write(i+'  '+'\n')
 		else:
-			out.write(eng+'\n'+i+'\n')
+			out.write(eng+'  '+'\n'+i+'\n')
 		break
 print('完成，前往out.txt查看')
 

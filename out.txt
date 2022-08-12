@@ -1,49 +1,49 @@
-# Making the Readme translation machine
+# Making the Readme translation machine  
 # Github Readme 翻译机
+  
 
-
-As shown in the readme, have English and Chinese, emmmm
+As shown in the readme, have English and Chinese, emmmm  
 如本readme所示，有英语和中文，emmmm
+  
 
-
-### Use:
+### Use:  
 ### 用处:
+  
 
-
-#### Let your Chinese readme have different language translation
+#### Let your Chinese readme have different language translation  
 #### 让你的中文readme拥有不同语言翻译
+  
 
-
-#### Internationalization of your project
+#### Internationalization of your project  
 #### 国际化你的项目
+  
 
-
-### usage
+### usage  
 ### 用法
+  
 
-
-**The readme file in ch. TXT input your project content, and then run the index. Py, output translation to complete, to the out. PHP view**
+**The readme file in ch. TXT input your project content, and then run the index. Py, output translation to complete, to the out. PHP view**  
 **在 ch.txt 输入你的项目 readme 文件内容，然后运行 index.py ，输出翻译完成，前往   out.php 查看**
+  
 
-
-### Support language
+### Support language  
 ### 支持语言
+  
 
-
-* [X]  English
+* [X]  English  
 * [X]  英文
-* [ ]  Japanese
+* [ ]  Japanese  
 * [ ]  日语
-* [ ]  Russian
+* [ ]  Russian  
 * [ ]  俄语
-* [X]  Chinese
+* [X]  Chinese  
 * [X]  中文
-* [ ]  More and more
+* [ ]  More and more  
 * [ ]  更多
+  
 
-
-Development, the current beta, a star, to focus on the project
+Development, the current beta, a star, to focus on the project  
 开发中，当前为beta，点个star，以关注项目动态
+  
 
-
-![https://cloud.shuia.tk/Qexo/2022/8/22450ba21c461833d8515529bb54ddcc.jpeg](https://cloud.shuia.tk/Qexo/2022/8/22450ba21c461833d8515529bb54ddcc.jpeg)
+![https://cloud.shuia.tk/Qexo/2022/8/22450ba21c461833d8515529bb54ddcc.jpeg](https://cloud.shuia.tk/Qexo/2022/8/22450ba21c461833d8515529bb54ddcc.jpeg)  
