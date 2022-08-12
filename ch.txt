@@ -1,0 +1,25 @@
+# Github Readme 翻译机
+
+如本readme所示，有英语和中文，emmmm
+
+### 用处:
+
+#### 让你的中文readme拥有不同语言翻译
+
+#### 国际化你的项目
+
+### 用法
+
+**在 ch.txt 输入你的项目 readme 文件内容，然后运行 index.py ，输出翻译完成，前往   out.php 查看**
+
+### 支持语言
+
+* [X]  英文
+* [ ]  日语
+* [ ]  俄语
+* [X]  中文
+* [ ]  更多
+
+开发中，当前为beta，点个star，以关注项目动态
+
+![https://cloud.shuia.tk/Qexo/2022/8/22450ba21c461833d8515529bb54ddcc.jpeg](https://cloud.shuia.tk/Qexo/2022/8/22450ba21c461833d8515529bb54ddcc.jpeg)
