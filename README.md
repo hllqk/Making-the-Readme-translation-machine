@@ -1,3 +1,10 @@
+# This project has been updated
+  
+# 此项目已经更新移动
+
+  
+[点我前往最新版本](https://g.shuia.tk/hllqk/Online-Readme-Translation-Machine)  
+
 # Making the Readme translation machine  
 # Github Readme 翻译机
   
